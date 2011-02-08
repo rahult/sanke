@@ -5,7 +5,7 @@ require "digest/md5"
 
 class KoiStore < Sinatra::Base
   get '/' do
-    'Hello World from KoiStore!'
+    'Welcome to sanka, to be used in conjuction with an iPhone!'
   end
 
   post '/store' do
