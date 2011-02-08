@@ -1,3 +1,3 @@
-require 'lib/koi_store'
+require 'lib/sanke'
 
-run KoiStore.new
+run Sanke.new

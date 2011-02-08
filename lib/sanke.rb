@@ -3,7 +3,7 @@ require "sinatra/base"
 require "base64"
 require "digest/md5"
 
-class KoiStore < Sinatra::Base
+class Sanke < Sinatra::Base
   get '/' do
     'Welcome to sanka, to be used in conjuction with an iPhone!'
   end
