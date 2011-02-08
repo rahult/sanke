@@ -2,6 +2,6 @@ Image uploaded by the iPhone app
 
 <ul style="list-style:none;">
 <% @images.each do |image| %>
-  <li><img src="./<%= image.gsub(/public\//, '') %>" /></li>
+  <li><img src="<%= image.url %>" /></li>
 <% end %>
 </ul>

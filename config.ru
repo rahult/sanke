@@ -1,3 +1,3 @@
-require 'lib/sanke'
+require './lib/sanke'
 
 run Sanke.new
