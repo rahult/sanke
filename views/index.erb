@@ -1,0 +1,7 @@
+Image uploaded by the iPhone app
+
+<ul style="list-style:none;">
+<% @images.each do |image| %>
+  <li><img src="./<%= image.gsub(/public\//, '') %>" /></li>
+<% end %>
+</ul>
